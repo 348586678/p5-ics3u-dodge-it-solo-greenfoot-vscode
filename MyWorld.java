@@ -6,7 +6,7 @@ public class MyWorld extends World {
         Baby kid = new Baby();
         addObject(kid, 100, 100);
         Bear brown = new Bear();
-        addObject(brown, 100, 150);
+        addObject(brown, 340, 100);
         
     }
 }
