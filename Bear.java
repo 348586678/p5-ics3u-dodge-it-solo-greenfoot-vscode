@@ -13,7 +13,7 @@ public class Bear extends Actor
         move(-3);
         
         if(getX() <= 0){
-            resetBanana();
+            resetBaby();
         }
         
         if (isTouching(Baby.class)){
@@ -24,7 +24,7 @@ public class Bear extends Actor
         }
     }
     
-    public void resetBanana(){
+    public void resetBaby(){
         int num = Greenfoot.getRandomNumber(2);
         if (num == 0){
             setLocation(600, 100);
